@@ -1,0 +1,33 @@
+{
+    "total_records": 4,
+    "valid_records": 1,
+    "invalid_records": 3,
+    "invalid_records_detail": [
+        {
+            "id": "2",
+            "errors": [
+                "missing_age"
+            ]
+        },
+        {
+            "id": "3",
+            "errors": [
+                "invalid_age"
+            ]
+        },
+        {
+            "id": "4",
+            "errors": [
+                "missing_department"
+            ]
+        }
+    ],
+    "department_summary": {
+        "Delhi": 1
+    },
+    "error_summary": {
+        "missing_age": 1,
+        "invalid_age": 1,
+        "missing_department": 1
+    }
+}
